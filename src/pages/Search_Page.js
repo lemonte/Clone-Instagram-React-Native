@@ -4,9 +4,9 @@ import { Video } from 'expo-av';
 import { ScrollView } from 'react-native-gesture-handler';
 
 
-const filters = ['IGVT', 'Loja', 'Decoração', 'Viagem', 'Arquitetura', 'Comida', 'Arte', 'Musica', 'Faça você mesmo', 'TV e cinema', 'Esportes', 'Quadrinhos', 'Automotivo']
+const filters = ['IGVT', 'Store', 'Decoration', 'Trip', 'Architecture', 'food', 'Art', 'Music', 'Do it yourself', 'TV and cinema', 'sports', 'Comic Books', 'Automotive']
 
-const Sujeridos = ['http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4', 'http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4', 'http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4'];
+const Suggested = ['http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4', 'http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4', 'http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4'];
 
 export default function Search_Page({ navigation }) {
     const [mute, setMute] = useState(false)
@@ -27,7 +27,7 @@ export default function Search_Page({ navigation }) {
                 showsHorizontalScrollIndicator={false}
                 style={{ marginBottom: 10 }}
                 horizontal={false}
-                data={Sujeridos}
+                data={Suggested}
                 renderItem={({ item }) => <TouchableOpacity onPress={() => setMute(!mute)}>
                     <Video
                         source={{ uri: item }}

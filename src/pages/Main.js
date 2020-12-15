@@ -78,26 +78,26 @@ function Comments() {
                 <Image style={[styles.icon_comment, { left: 20 }]} source={{ uri: 'https://avatars1.githubusercontent.com/u/48225849?s=460&u=3f8e9a830d52615b9b00e517f5f82bb8530d4a7b&v=4' }} />
                 <Image style={styles.firt_icon_comment} source={{ uri: 'https://avatars1.githubusercontent.com/u/48225849?s=460&u=3f8e9a830d52615b9b00e517f5f82bb8530d4a7b&v=4' }} />
                 <View style={{ paddingLeft: 12, flexDirection: 'row', alignItems: "center", zIndex: 900 }} >
-                    <Text style={{ marginRight: 3 }}> Curtido por</Text>
+                    <Text style={{ marginRight: 3 }}> Liked by</Text>
                     <Text style={styles.nick}>geanderson.gl</Text>
-                    <Text style={{ marginRight: 3 }}>e</Text>
-                    <Text style={{ fontWeight: "bold" }}>outras pessoas</Text>
+                    <Text style={{ marginRight: 3 }}> and</Text>
+                    <Text style={{ fontWeight: "bold" }}>other people</Text>
                 </View>
             </View>
             <View style={styles.comment}>
                 <Text style={[styles.nick, {marginRight: 4}]}> geanderson.gl</Text>
-                <Text >Curti a foto ficou bacana</Text>
+                <Text >I liked the photo</Text>
             </View>
             <View>
-                <Text style={{ fontWeight: "bold", color: 'grey', marginLeft: 10, marginTop: 10 }}>Ver toda as mensagens</Text>
+                <Text style={{ fontWeight: "bold", color: 'grey', marginLeft: 10, marginTop: 10 }}>See all posts</Text>
             </View>
             <View style={styles.comment}>
                 <Text style={[styles.nick,{marginRight: 4}]}> geanderson.gl</Text>
-                <Text>Curti a foto ficou bacana </Text>
+                <Text>I liked the photo</Text>
             </View>
             <View style={styles.add_comment}>
                 <Image style={styles.icon_add_comment} source={{ uri: 'https://avatars1.githubusercontent.com/u/48225849?s=460&u=3f8e9a830d52615b9b00e517f5f82bb8530d4a7b&v=4' }} />
-                <Text style={{ textAlignVertical: "center", color: "grey" }}>Adicione um comentario</Text>
+                <Text style={{ textAlignVertical: "center", color: "grey" }}>Add a comment</Text>
             </View>
         </>
     )

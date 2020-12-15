@@ -95,7 +95,7 @@ const Routes = createAppContainer(
                     Notification: {
                         screen: Search_Page,
                         navigationOptions: ({ navigation }) => ({
-                            title: 'Pesquisar',
+                            title: 'search',
                             headerTintColor: "grey",
                             headerLeft: Search_Icon(navigation),
                             headerRight: Tag(navigation)
@@ -137,7 +137,7 @@ const Routes = createAppContainer(
                     Notification: {
                         screen: Page_Notifications,
                         navigationOptions: ({ navigation }) => ({
-                            title: 'Atividade',
+                            title: 'Activity',
                         }
                         )
                     },

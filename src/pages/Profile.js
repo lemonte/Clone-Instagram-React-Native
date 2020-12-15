@@ -65,7 +65,7 @@ export default function Profile({ navigation }) {
                                 25
                         </Text>
                             <Text>
-                                Publicaç
+                            publicat
                         </Text>
                         </View>
                         <View>
@@ -73,7 +73,7 @@ export default function Profile({ navigation }) {
                                 624
                         </Text>
                             <Text>
-                                Seguidor
+                            Followers
                         </Text>
                         </View>
                         <View>
@@ -81,7 +81,7 @@ export default function Profile({ navigation }) {
                                 1.217
                         </Text>
                             <Text>
-                                Seguindo
+                            Following
                         </Text>
                         </View>
                     </View>
@@ -89,12 +89,12 @@ export default function Profile({ navigation }) {
 
                 <View style={{ marginRight: 10, marginTop: 10, marginLeft: 10, flex: 1 }}>
                     <Text style={{ fontWeight: 'bold', fontSize: 15 }}> Geanders Lemonte </Text>
-                    <Text style={{ fontSize: 16, }} >"Nunca desista dos seus sonhos por mais dificil que seja"</Text>
-                    <Text style={{ fontSize: 16 }}>IFES - COLATINA</Text>
-                    <Text style={{ fontSize: 16 }}>Desenvolvedor - Raiz Capixaba</Text>
+                    <Text style={{ fontSize: 16, }} >"Never give up on your dreams no matter how hard it is"</Text>
+                    <Text style={{ fontSize: 16 }}>Developer</Text>
+                    <Text style={{ fontSize: 16 }}>Frontend Developer</Text>
                     <View style={{ borderWidth: .8, borderColor: 'grey', marginTop: 20 }}>
                         <TouchableOpacity style={{ height: 30 }} >
-                            <Text style={{ textAlign: "center", fontSize: 16, fontWeight: "bold", marginTop: 2 }}>Editar perfil</Text>
+                            <Text style={{ textAlign: "center", fontSize: 16, fontWeight: "bold", marginTop: 2 }}>Edit profile</Text>
                         </TouchableOpacity>
                     </View>
                     <FlatList
